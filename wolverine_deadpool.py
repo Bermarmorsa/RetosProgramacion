@@ -32,7 +32,7 @@ import time
 
 class Wolverine:
 
-    def __init__(self,vida = 300,regeneracion = 5):
+    def __init__(self,vida = 300,regeneracion = 40):
         self.vida = vida
         self.regeneracion = regeneracion
 
@@ -40,7 +40,7 @@ class Wolverine:
         return f'Lobezno tiene {str(self.vida)} de vida y {str(self.regeneracion)} de regeneracion'
 
     def danho(self):
-        return random.randint(10,120)
+        return random.randint(10,110)
 
     def evitar_ataque(self):
         if random.randint(1, 4) == 1:
@@ -52,7 +52,7 @@ class Wolverine:
 
 class Deadpool:
 
-    def __init__(self,vida = 300,regeneracion = 5):
+    def __init__(self,vida = 300,regeneracion = 25):
         self.vida = vida
         self.regeneracion = regeneracion
 
@@ -65,7 +65,7 @@ class Deadpool:
 
     def evitar_ataque(self):
 
-        if random.randint(1,5) == 1:
+        if random.randint(1,4) == 1:
             return True
         else:
             return False
@@ -103,14 +103,15 @@ class Batalla:
             time.sleep(5)
             if inicia == 'Lobezno':
                 l_danho = lobezno.danho()
-                if deadpool.evitar_ataque():
+                le_ataque = deadpool.evitar_ataque()
+                if le_ataque:
                     print(f'Turno {self.turno}: Lobezno ataca con {l_danho} de daño')
                     print(f'Deadpool ha evitado el ataque y queda con {deadpool.vida} de vida\n')
                     print('-'*40)
                     self.turno += 1
                     inicia = 'Deadpool'
 
-                elif not deadpool.evitar_ataque() and l_danho > 70:
+                elif not le_ataque and l_danho > 70:
                     deadpool.vida -= l_danho
                     print(f'Turno {self.turno}: Lobezno ataca con {l_danho} de daño')
                     print(f'Deadpool ha sufrido el ataque y queda con {deadpool.vida} de vida\n')
@@ -131,7 +132,8 @@ class Batalla:
 
             else:
                 d_danho = deadpool.danho()
-                if lobezno.evitar_ataque():
+                e_ataque = lobezno.evitar_ataque()
+                if e_ataque:
                     print(f'Turno: {self.turno}: Deadpool ataca con {d_danho} de daño')
                     print(f'Lobezno ha evitado el ataque y queda con {lobezno.vida} de vida \n')
                     print('-'*40)
@@ -139,13 +141,13 @@ class Batalla:
                     inicia = 'Lobezno'
 
 
-                elif not lobezno.evitar_ataque() and d_danho > 70:
+                elif not e_ataque and d_danho > 70:
                     lobezno.vida -= d_danho
                     print(f'Turno {self.turno}: Deadpool ataca con {d_danho} de daño')
                     print(f'Lobezno ha sufrido el ataque y queda con {lobezno.vida} de vida\n')
-                    print(f'Como ha sufrido el daño máximo no podrá atacar el proximo turno \n')
+                    print(f'Como ha sufrido el daño máximo no podrá atacar el proximo turno\n')
                     lobezno.vida += lobezno.regeneracion
-                    print(f'Pero por el descaso recupera {lobezno.regeneracion} de vida y queda en {lobezno.vida} de vida \n')
+                    print(f'Pero por el descaso recupera {lobezno.regeneracion} de vida y queda en {lobezno.vida} de vida\n')
                     print('-'*40)
                     self.turno += 1
                     inicia = 'Deadpool'
@@ -158,6 +160,7 @@ class Batalla:
                     print('-'*40)
                     self.turno += 1
                     inicia = 'Lobezno'
+
 
 
         if lobezno.vida <= 0:
