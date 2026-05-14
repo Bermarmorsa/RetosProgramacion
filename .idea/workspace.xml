@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26843fc6-3630-4ae9-af30-a665c560ab86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/retos programacion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Refresh_clases_obj_met.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juegos_olimpicos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juegos_olimpicos_solucion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wolverine_deadpool.py" afterDir="false" />
+    <list default="true" id="26843fc6-3630-4ae9-af30-a665c560ab86" name="Changes" comment="mickey">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batman_ollama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discogs_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discogs_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gorro_ollama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reto_batman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spotify_solucion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_numero_pi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wolverine_deadpool_sim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pruebas.py" beforeDir="false" afterPath="$PROJECT_DIR$/pruebas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bermarmorsa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bermarmorsa/RetosProgramacion.git&quot;,
+    &quot;accountId&quot;: &quot;e371a767-e8ff-44f1-b93c-84961b4300fa&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -51,18 +66,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.bucar_mickey.executor": "Run",
     "Python.juegos_olimpicos.executor": "Run",
     "Python.juegos_olimpicos_solucion.executor": "Debug",
+    "Python.pruebas.executor": "Run",
+    "Python.reto_batman.executor": "Run",
+    "Python.spotify_api.executor": "Run",
+    "Python.test_numero_pi.executor": "Run",
     "Python.wolverine_deadpool.executor": "Run",
+    "Python.wolverine_deadpool_sim.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/bernardo.martin/OneDrive - Scalian/00-workspace/retos programacion",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bernardo.martin\OneDrive - Scalian\00-workspace\retos programacion" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +107,38 @@
       <option name="presentableId" value="Default" />
       <updated>1776760273967</updated>
     </task>
+    <task id="LOCAL-00001" summary="terminando lobezno">
+      <option name="closed" value="true" />
+      <created>1776873093436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776873093436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="batalla terminada">
+      <option name="closed" value="true" />
+      <created>1776935254357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776935254357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mickey">
+      <option name="closed" value="true" />
+      <created>1776955397956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776955397956</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="terminando lobezno" />
+    <MESSAGE value="batalla terminada" />
+    <MESSAGE value="mickey" />
+    <option name="LAST_COMMIT_MESSAGE" value="mickey" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
